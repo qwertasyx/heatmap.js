@@ -476,7 +476,7 @@ var Canvas2dRenderer = (function Canvas2dRendererClosure() {
       }
 
       var img = this.shadowCtx.getImageData(x, y, width, height);
-      // var imgData = img.data;
+      var imgData = img.data;
       var len = imgData.length;
       var palette = this._palette;
 
